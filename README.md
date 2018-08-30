@@ -10,28 +10,34 @@ How to run it:
 - To run the REST application without Docker: </br>
 ./mvnw package && java -jar  -Dserver.port=5000  target/acsystem-0.0.1-SNAPSHOT.jar
 
+</br> 
 
 -To run Angular app, access UI to Enqueue, Dequeue and List Aircrafts:
-
+</br> 
 cd ui
 npm install
 ng server
-
+</br> 
 Browse to http://localhost:4200/
 
-
+</br> 
 -Calling api without UI, using curl:
-
+</br> 
 -To add a new aircraft:
-
+</br> 
 curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"type": "VIP", "size": "Small"}' http://localhost:5000/aircraft
+</br>
 
 curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"type": "Emergency", "size": "Large"}' http://localhost:5000/aircraft
+
+</br>
 
 -Dequeue aircraft:
 curl  -X DELETE http://localhost:5000/aircraft
 
--List aircrafts:
+</br>
 
+-List aircrafts:
+</br>
 curl  -X GET  http://localhost:5000/aircraft
 
