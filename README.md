@@ -2,8 +2,8 @@
 
 
 How to run it:
-
--The application can be run in Docker using command: </br> 
+REST App:
+- The application can be run in Docker using command: </br> 
 ./start.sh 
 
 
@@ -12,7 +12,8 @@ How to run it:
 
 </br> 
 
--To run Angular app, access UI to Enqueue, Dequeue and List Aircrafts:
+UI:
+- To run Angular app, access UI to Enqueue, Dequeue and List Aircrafts:
 </br> 
 cd ui
 npm install
