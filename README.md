@@ -15,8 +15,10 @@ REST App:
 UI:
 - To run Angular app, access UI to Enqueue, Dequeue and List Aircrafts:
 </br> 
-cd ui
+cd ui  
+</br>
 npm install
+</br>
 ng server
 </br> 
 Browse to http://localhost:4200/
@@ -34,6 +36,7 @@ curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -
 </br>
 
 -Dequeue aircraft:
+</br>
 curl  -X DELETE http://localhost:5000/aircraft
 
 </br>
@@ -41,4 +44,3 @@ curl  -X DELETE http://localhost:5000/aircraft
 -List aircrafts:
 </br>
 curl  -X GET  http://localhost:5000/aircraft
-
