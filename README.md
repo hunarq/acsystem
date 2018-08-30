@@ -23,9 +23,11 @@ ng server
 </br> 
 Browse to http://localhost:4200/
 
+</br>
 </br> 
 -Calling api without UI, using curl:
 </br> 
+</br>
 -To add a new aircraft:
 </br>
 </br>
