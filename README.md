@@ -3,11 +3,11 @@
 
 How to run it:
 
--The application can be run in Docker using command:
-./start.sh
+-The application can be run in Docker using command: </br> 
+./start.sh 
 
 
-- To run the REST application without Docker:
+- To run the REST application without Docker: </br>
 ./mvnw package && java -jar  -Dserver.port=5000  target/acsystem-0.0.1-SNAPSHOT.jar
 
 
