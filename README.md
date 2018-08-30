@@ -30,7 +30,6 @@ Browse to http://localhost:4200/
 </br>
 -To add a new aircraft:
 </br>
-</br>
 curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"type": "VIP", "size": "Small"}' http://localhost:5000/aircraft
 </br>
 </br>
