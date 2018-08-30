@@ -27,20 +27,21 @@ Browse to http://localhost:4200/
 -Calling api without UI, using curl:
 </br> 
 -To add a new aircraft:
-</br> 
+</br>
+</br>
 curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"type": "VIP", "size": "Small"}' http://localhost:5000/aircraft
 </br>
-
+</br>
 curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -d '{"type": "Emergency", "size": "Large"}' http://localhost:5000/aircraft
 
 </br>
-
+</br>
 -Dequeue aircraft:
 </br>
 curl  -X DELETE http://localhost:5000/aircraft
 
 </br>
-
+</br>
 -List aircrafts:
 </br>
 curl  -X GET  http://localhost:5000/aircraft
