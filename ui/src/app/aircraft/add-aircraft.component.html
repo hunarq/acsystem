@@ -1,0 +1,18 @@
+<div class="col-md-6">
+  <h2 class="text-center">Add Aircraft</h2>
+<form>
+  <div class="form-group">
+    <label for="type">type:</label>
+    <input type="type" [(ngModel)]="aircraft.type" placeholder="Emergency, VIP, Passenger, Cargo" name="type" class="form-control" id="type">
+  </div>
+
+  <div class="form-group">
+    <label for="size">size:</label>
+    <input [(ngModel)]="aircraft.size" placeholder="Small, Large" name="size" class="form-control" id="size">
+  </div>
+
+  <button class="btn btn-success" (click)="createAircraft()">Create</button>
+</form>
+</div>
+
+

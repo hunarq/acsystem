@@ -1,0 +1,22 @@
+<div class="col-md-6">
+<h2> Aircraft Details</h2>
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th class="hidden">Id</th>
+    <th>Aircraft-Type</th>
+    <th>Aircraft-Size</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let aircraft of aircrafts">
+    <td class="hidden"></td>
+    <td> {{aircraft.type}} </td>
+    <td>{{aircraft.size}} </td>
+  </tr>
+  <tr><td><button class="btn btn-danger" (click)="deleteAircraft()"> Remove Aircraft</button></td> <td></td></tr>
+  </tbody>
+</table>
+</div>
+
